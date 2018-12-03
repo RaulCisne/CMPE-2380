@@ -156,8 +156,8 @@ void MergeSort(string arr[], int s, int e) {
 
 		MergeSort(arr, s, m);
 		MergeSort(arr, m + 1, e);
-		for (int i = 0; i < 13; i++)
-			Merge(arr, s, e);
+		
+		Merge(arr, s, e);
 		
 	}
 }
